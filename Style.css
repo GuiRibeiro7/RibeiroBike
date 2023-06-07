@@ -1,0 +1,90 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    display: inline-block;
+    position: relative;
+}
+  
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, span{
+    margin: 0;
+    color:black;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+a.foo:hover, a.foo:active {
+    color: black;
+}
+
+nav {
+    position: fixed
+    top 0;
+    height: 90px;
+    width: 100%;
+    z-index: 1;
+    background-image: linear-gradient(to right,#00CED1, #00BFFF);
+    display: block;
+}
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+nav:after {
+    clear: both;
+    display: block;
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+}
+
+.nav-container li a {
+    color: white;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+}
+
